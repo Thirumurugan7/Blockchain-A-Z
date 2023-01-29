@@ -14,5 +14,6 @@ console.log(`aHash:${aHash} `);
 
 const bHash = sha256(bBytes);
 console.log(`bHash:${bHash} `);
+console.log(toHex(aHash));
 console.log(toHex(aHash) === toHex(aHash)); // true
 console.log(toHex(aHash) === toHex(bHash)); // false
